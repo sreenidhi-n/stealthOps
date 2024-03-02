@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <title class="title">Dashboard</title>
+  </head>
+  <body>
+    <h1 class="h1">Dashboard</h1>
+    <p class="para">Welcome!</p>
+    <a href="{{ url_for('index') }}" class="mini-card">
+      <span class="icon">&#128522;</span>
+      Feature 1
+    </a>
+
+    <a href="{{ url_for('index') }}" class="mini-card">
+      <span class="icon">&#128221;</span>
+      Feature 2
+    </a>
+
+    <a href="{{ url_for('index') }}" class="mini-card">
+      <span class="icon">&#127925;</span>
+      Feature 3
+    </a>
+
+    <a href="{{ url_for('index') }}" class="mini-card">
+      <span class="icon">&#128100;</span>
+      Feature 4
+    </a>
+
+    <a href="{{ url_for('index') }}" class="mini-card">
+      <span class="icon">&#128075;</span>
+      Feature 5
+    </a>
+  </body>
+</html>
