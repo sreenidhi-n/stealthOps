@@ -1,6 +1,5 @@
 from elasticsearch import Elasticsearch
 
-# Connect to Elasticsearch
 es = Elasticsearch(["localhost:9200"])
 
 index_name = "dark_web_data"
