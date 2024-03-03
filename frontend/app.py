@@ -9,8 +9,7 @@ import exifread
 
 app = Flask(__name__)
 
-# Initialize Etherscan client
-es = Client(api_key='TMFZA9NKDREWR4MJUA2AJR8V1U4AVRV6RX')
+es = Client(api_key='your_api_key_here')
 
 dangerous_keywords = ['preteen', 'loli', 'lolita', 'jailbait', 'pthc', 'best cp',
                       'child porn', 'kid porn', 'child sex', 'cp video',
@@ -20,7 +19,6 @@ dangerous_keywords = ['preteen', 'loli', 'lolita', 'jailbait', 'pthc', 'best cp'
                       'loliporn', 'pedofamily', 'cp database', 'pedo webcams', 'lolitacity',
                       'xxx child', 'xxx underage', 'young forbidden']
 
-# Function to make TOR request
 def make_tor_request(url):
     proxies = {
         'http': 'socks5h://127.0.0.1:9050',
@@ -33,13 +31,11 @@ def make_tor_request(url):
         print("Error:", e)
         return None
 
-# Function to display directory URLs
 def display_directory_urls(response):
     directory_urls = []
     if not response:
         print("No response received.")
         return directory_urls
-
     soup = BeautifulSoup(response.content, 'html.parser')
     links = soup.find_all('a')
     if links:
@@ -48,13 +44,11 @@ def display_directory_urls(response):
             if href and (href.startswith("http://") or href.startswith("https://")):
                 directory_urls.append(href)
     return directory_urls
-
-# Route for index page
+  
 @app.route('/')
 def index():
     return render_template('index.html')
 
-# Route for main page
 @app.route('/main', methods=['GET', 'POST'])
 def main():
     if request.method == 'POST':
@@ -62,7 +56,6 @@ def main():
     else:
         return "Method Not Allowed", 405
 
-# Route for parsing directory
 @app.route('/parse_directory', methods=['GET', 'POST'])
 def parse_directory():
     if request.method == 'POST':
@@ -79,24 +72,19 @@ def parse_directory():
     else:
         return render_template('parse_directory.html')
 
-# Route for analyzing cryptocurrency transactions
 @app.route('/analyse_transaction', methods=['GET','POST'])
 def analyse_transaction():
     if request.method == 'POST':
         crypto_address = request.form['crypto_address']
-        # Fetch actual transaction information based on the crypto address
         eth_balance = es.get_eth_balance(crypto_address)
         eth_transactions = es.get_transactions_by_address(crypto_address)
-        
         return render_template('analyse_transaction.html', eth_balance=eth_balance, eth_transactions=eth_transactions)
     elif request.method == 'GET':
         return render_template('analyse_transaction.html', eth_balance=None, eth_transactions=None)
     else:
         return "Method Not Allowed", 405
 
-# Function to fetch transaction value for a cryptocurrency address
 def get_value(crypto_address):
-    # Make a request to the blockchain API to get the transaction details for the given address
     endpoint = f"https://api.blockchain.com/v1/address/{crypto_address}/transactions"
     response = requests.get(endpoint)
     if response.status_code == 200:
@@ -111,31 +99,20 @@ def get_value(crypto_address):
         print("Failed to fetch value. Status code:", response.status_code)
         return None
 
-# Route for keyword search
 @app.route('/search', methods=['GET', 'POST'])
 def keyword():
     if request.method == 'POST':
-        # Handle POST request
         user_input = request.form['keyword']
         bold_word = f'<strong>{user_input}</strong>'
-
         email_pattern = re.compile(r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,}\b')
-
-        input_file_path = 'output.txt'  # Change this to your input file path
+        input_file_path = 'output.txt'
         with open(input_file_path, 'r') as file:
             lines = file.readlines()
-
         matching_lines = [line.strip().replace(user_input, bold_word) for line in lines if user_input.lower() in line.lower()]
-
         return render_template('keyword.html', matching_lines=matching_lines, user_input=user_input)
     else:
-        # Handle GET request
         return render_template('keyword.html')
-
-
-
-
-
+      
 def get_exif_data(image):
     exif_data = image._getexif()
     if exif_data is not None:
@@ -171,7 +148,6 @@ def get_gps_coordinates(image):
 
 def get_location_from_coordinates(latitude, longitude):
     url = f"https://nominatim.openstreetmap.org/reverse?format=json&lat={latitude}&lon={longitude}&zoom=18&addressdetails=1"
-    
     try:
         response = requests.get(url)
         data = response.json()
@@ -181,18 +157,15 @@ def get_location_from_coordinates(latitude, longitude):
         print("Exception:", str(e))
         return None
 
-
 @app.route('/process_image', methods=['GET','POST'])
 def process_image():
     if request.method == 'POST':
         if 'image' in request.files:
             image = request.files['image']
-            # Check if the image file is empty
             if image.filename == '':
                 error_message = "No image uploaded."
                 return render_template('exif.html', error_message=error_message)
             try:
-                # Open the image and extract EXIF data
                 img = Image.open(image)
                 exif_data = get_exif_data(img)
                 return render_template('exif.html', exif_data=exif_data)
@@ -215,16 +188,13 @@ def get_exif_data(image):
         return exif
     return None
 
-
 @app.route('/userinfo', methods=['GET'])
 def userinfo():
     query = request.args.get('query')
     if not query:
         return render_template('userinfo.html', error="No query provided.")
-
     url = "https://api.proxynova.com/comb"
     params = {"query": query}
-
     response = requests.get(url, params=params)
     if response.status_code == 200:
         data = response.json()
@@ -233,7 +203,5 @@ def userinfo():
     else:
         return render_template('userinfo.html', error=f"Error: {response.status_code}")
 
-
 if __name__ == '__main__':
     app.run(debug=True)
-
