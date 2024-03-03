@@ -2,7 +2,7 @@ import requests
 
 base_url = "https://api.chainabuse.com/v1"
 
-api_key = "ca_aUVPWmpENkZwRENPd3RiYVBOTkI3SDhFLnZVSVdSSm1Nem1kQVBMWmVibXh4bFE9PQ"
+api_key = "your_api_key_here"
 
 def address_lookup(address):
     endpoint = f"{base_url}/address/{address}"
