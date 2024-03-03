@@ -1,0 +1,2 @@
+<p>Please do not use our onion domain to scrape. Please use https://www.propublica.org ; if you would like to acquire bulk data, contact us: https://www.propublica.org/datastore/contact .</p>
+

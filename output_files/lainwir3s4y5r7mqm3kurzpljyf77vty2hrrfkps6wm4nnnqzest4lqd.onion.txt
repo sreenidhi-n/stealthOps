@@ -1,0 +1,16 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+<title>qorg's old site</title>
+</head>
+<body>
+  <p><i>Ya no queda nada de ayer<br>
+      porque el viento se lo llevó</i><br>
+    <i>Ya no queda una piedra en pie<br>
+      Porque el viento lo derribó</i></p>
+
+  <a href="https://suragu.net">Volver al presente</a>
+
+</body>
+</html>
+

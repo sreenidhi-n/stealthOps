@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transaction Analysis</title>
+    <style>
+        body {
+            background-color: #FFFFFF;
+            color: #040D12;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #183D3D;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #183D3D;
+        }
+
+        input[type="text"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #5C8374;
+            color: #FFFFFF;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: #183D3D;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Transaction Analysis</h1>
+    <form action="/analyse_transaction" method="post">
+        <label for="crypto_address">Enter Crypto Address:</label>
+        <input type="text" id="crypto_address" name="crypto_address">
+        <button type="submit">Submit</button>
+    </form>
+
+    {% if eth_balance %}
+    <p><strong>Ethereum Balance:</strong> {{ eth_balance }}</p>
+    {% else %}
+    <p>No Ethereum balance information available.</p>
+    {% endif %}
+
+    {% if eth_transactions %}
+    <h2>Ethereum Transactions:</h2>
+    <ul>
+    {% for transaction in eth_transactions %}
+        <li>
+            <p><strong>Transaction Hash:</strong> {{ transaction['hash'] }}</p>
+            <p><strong>From:</strong> {{ transaction['from'] }}</p>
+            <p><strong>To:</strong> {{ transaction['to'] }}</p>
+            <p><strong>Value:</strong> {{ transaction['value'] }} wei</p>
+            <p><strong>Timestamp:</strong> {{ transaction['timestamp'] }}</p>
+        </li>
+    {% endfor %}
+    </ul>
+    {% else %}
+    <p>No Ethereum transactions available.</p>
+    {% endif %}
+</body>
+</html>
+

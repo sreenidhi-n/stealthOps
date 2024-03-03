@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Search</title>
+    <style>
+        body {
+            background-color: #93B1A6;
+            color: #040D12;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #183D3D;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #183D3D;
+        }
+
+        input[type="text"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #5C8374;
+            color: #FFFFFF;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: #183D3D;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Search</title>
+</head>
+<body>
+    <h1>Keyword Search</h1>
+    <form action="/search" method="post">
+        <label for="keyword">Enter a keyword:</label>
+        <input type="text" id="keyword" name="keyword">
+        <button type="submit">Search</button>
+    </form>
+    
+    {% if matching_lines %}
+        <h2>Lines containing the word <strong>{{ user_input }}</strong>:</h2>
+        <ul>
+            {% for line in matching_lines %}
+                <li>{{ line | safe }}</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>No lines found containing the word <strong>{{ user_input }}</strong>.</p>
+    {% endif %}
+</body>
+</html>
+

@@ -1,0 +1,171 @@
+<html>
+<head>
+<meta name="generator" content="Hugo 0.120.1">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="robots" content="index, follow">
+<meta name="googlebot" content="index, follow, noarchive">
+<meta name="format-detection" content="telephone=no">
+<title>systemli.org - Your friendly tech collective</title>
+<link rel="shortcut icon" href="/favicon.ico">
+<meta name="description" content="Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.">
+<meta property="og:title" content="Your friendly tech collective">
+<meta property="og:description" content="Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.systemli.org/">
+<meta property="og:image" content="https://www.systemli.org/default-og-image.png">
+<meta property="og:site_name" content="systemli.org">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://www.systemli.org/default-og-image.png">
+<meta name="twitter:title" content="Your friendly tech collective">
+<meta name="twitter:description" content="Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.">
+<link rel="stylesheet" href="/css/styles.min.954fe63c4c31e89b612bac555ed47ad200c8aa9459a2e179f35bfc15d7c99b06.css" integrity="sha256-lU/mPEwx6JthK6xVXtR60gDIqpRZouF581v8FdfJmwY=">
+<script src="/js/main.min.f6f70792d091e72a1fae9deb5ebdfb22450257efc2f6cfec205f4a94dc7f8270.js" defer integrity="sha256-9vcHktCR5yofrp3rXr37IkUCV+/C9s/sIF9KlNx/gnA="></script><link rel="me" href="https://systemli.social/@systemli">
+<link rel="alternate" type="application/rss+xml" href="/index.xml" title>
+<link rel="alternate" type="application/atom" href="/atom.xml" title>
+</head>
+<body class="flex flex-col justify-between min-h-screen bg-body bg-no-repeat bg-cover bg-fixed bg-right-bottom font-body">
+<header><nav id="navbar"><div class="flex flex-col-reverse justify-end lg:flex-row lg:justify-between page-width w-full lg:page-width-lg">
+<div class="flex flex-col lg:block">
+<a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/service/" title="Dienste">Dienste
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/ueber-uns/" title="Über uns">Über uns
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/friends/" title="Friends">Friends
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/kontakt/" title="Kontakt">Kontakt
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/support-us/" title="Unterstützt uns!">Unterstützt uns!
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="/tos/" title="Nutzungsbedingungen">Nutzungsbedingungen
+</a><a class="menu-item inline-block border-b lg:border-b-0 lg:border-white text-white" href="https://wiki.systemli.org/" title>Wiki</a>
+</div>
+<div class="flex justify-between items-center pb-24 lg:pb-0">
+<a class="text-black hover:no-underline hover:text-white mx-2" href="https://www.systemli.org/en/">EN</a>
+<a class="menu-icon" href="https://systemli.social/@systemli" target="_blank"><svg class="menu-icon-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 -16 256 256"><path d="M211.80734 139.0875c-3.18125 16.36625-28.4925 34.2775-57.5625 37.74875-15.15875 1.80875-30.08375 3.47125-45.99875 2.74125-26.0275-1.1925-46.565-6.2125-46.565-6.2125.0 2.53375.15625 4.94625.46875 7.2025 3.38375 25.68625 25.47 27.225 46.39125 27.9425 21.11625.7225 39.91875-5.20625 39.91875-5.20625l.8675 19.09s-14.77 7.93125-41.08125 9.39c-14.50875.7975-32.52375-.365-53.50625-5.91875C9.23234 213.82 1.40609 165.31125.20859 116.09125c-.365-14.61375-.14-28.39375-.14-39.91875.0-50.33 32.97625-65.0825 32.97625-65.0825C49.67234 3.45375 78.20359.2425 107.86484.0h.72875c29.66125.2425 58.21125 3.45375 74.8375 11.09.0.0 32.975 14.7525 32.975 65.0825.0.0.41375 37.13375-4.59875 62.915"></path><path fill="#42abee" d="M177.50984 80.077v60.94125h-24.14375v-59.15c0-12.46875-5.24625-18.7975-15.74-18.7975-11.6025.0-17.4175 7.5075-17.4175 22.3525v32.37625H96.20734V85.42325c0-14.845-5.81625-22.3525-17.41875-22.3525-10.49375.0-15.74 6.32875-15.74 18.7975v59.15H38.90484V80.077c0-12.455 3.17125-22.3525 9.54125-29.675 6.56875-7.3225 15.17125-11.07625 25.85-11.07625 12.355.0 21.71125 4.74875 27.8975 14.2475l6.01375 10.08125 6.015-10.08125c6.185-9.49875 15.54125-14.2475 27.8975-14.2475 10.6775.0 19.28 3.75375 25.85 11.07625 6.36875 7.3225 9.54 17.22 9.54 29.675"></path></svg></a><a class="menu-icon" href="https://www.systemli.org//index.xml" target="_blank"><svg class="menu-icon-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 -256 1792 1792"><path d="M596.61 1154.17q0 80-56 136t-136 56-136-56-56-136 56-136 136-56 136 56 56 136zm512 123q2 28-17 48-18 21-47 21h-135q-25 0-43-16.5t-20-41.5q-22-229-184.5-391.5t-391.5-184.5q-25-2-41.5-20t-16.5-43v-135q0-29 21-47 17-17 43-17h5q160 13 306 80.5t259 181.5q114 113 181.5 259t80.5 306zm512 2q2 27-18 47-18 20-46 20h-143q-26 0-44.5-17.5t-19.5-42.5q-12-215-101-408.5t-231.5-336-336-231.5-408.5-102q-25-1-42.5-19.5t-17.5-43.5v-143q0-28 20-46 18-18 44-18h3q262 13 501.5 120t425.5 294q187 186 294 425.5t120 501.5z" fill="currentcolor"></path></svg></a><a class="menu-icon" href="https://github.com/systemli/" target="_blank"><svg class="menu-icon-svg" xmlns="http://www.w3.org/2000/svg" viewbox="0 0 1024 1024"><path d="M512 0C229.12.0.0 229.12.0 512c0 226.56 146.56 417.92 350.08 485.76 25.6 4.48 35.2-10.88 35.2-24.32.0-12.16-.64-52.48-.64-95.36-128.64 23.68-161.92-31.36-172.16-60.16-5.76-14.72-30.72-60.16-52.48-72.32-17.92-9.6-43.52-33.28-.64-33.92 40.32-.64 69.12 37.12 78.72 52.48 46.08 77.44 119.68 55.68 149.12 42.24 4.48-33.28 17.92-55.68 32.64-68.48-113.92-12.8-232.96-56.96-232.96-252.8.0-55.68 19.84-101.76 52.48-137.6-5.12-12.8-23.04-65.28 5.12-135.68.0.0 42.88-13.44 140.8 52.48 40.96-11.52 84.48-17.28 128-17.28s87.04 5.76 128 17.28c97.92-66.56 140.8-52.48 140.8-52.48 28.16 70.4 10.24 122.88 5.12 135.68 32.64 35.84 52.48 81.28 52.48 137.6.0 196.48-119.68 240-233.6 252.8 18.56 16 34.56 46.72 34.56 94.72.0 68.48-.64 123.52-.64 140.8.0 13.44 9.6 29.44 35.2 24.32C877.44 929.92 1024 737.92 1024 512 1024 229.12 794.88.0 512 0z"></path></svg></a><div id="button-menu-close" class="flex lg:hidden items-center justify-center h-20 w-20 bg-black cursor-pointer"><span class="text-white">close</span></div>
+</div>
+</div></nav><div id="mobile-menu-overlay" class="hidden z-40 w-full h-full top-0 left-0 fixed bg-black opacity-50"></div>
+<div class="flex flex-row items-center justify-between page-width lg:page-width-lg py-4 mb-4 lg:mb-0">
+<a class="w-64 lg:w-1/4 max-w-sm lg:m-3" href="https://www.systemli.org/"><img src="/systemli_logo.svg" alt="logo"></a><p class="hidden lg:block max-w-half text-right">/*
+Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung.
+*/</p>
+<div id="button-menu-open" class="absolute right-0 top-4 flex lg:hidden items-center justify-center h-20 w-20 bg-lightblue cursor-pointer"><span class="text-white font-bold">Menu</span></div>
+</div></header><main id="content" class="flex-1"><div class="flex flex-col content-container items-center md:items-start md:grid grid-cols-24 gap-0">
+<p class="lg:hidden mb-4 col-span-24 px-4 py-0 text-xs">/* Unkommerzieller Anbieter für datenschutzfreundliche Kommunikation. Ganz ohne Überwachung. */</p>
+<div class="flex flex-col items-start md:grid grid-cols-19 col-span-24 lg:col-span-19 max-w-95 md:max-w-full md:shadow-m md:bg-white">
+<div class="hidden md:grid grid-cols-post-list col-span-12 p-4 bg-white shadow-none">
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">11/01 2024</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2024/01/11/neue-sicherheitsma%C3%9Fnahme-gegen-mitm-angriffe-eingef%C3%BChrt/" class="text-black">Neue Sicherheitsmaßnahme gegen MITM-Angriffe eingeführt</a></h2></div>
+<div class="block"></div>
+<div class="flex flex-col col-span-1 py-4 px-4 leading-5">
+<p>Im November 2023 wurde <a href="https://notes.valdikss.org.ru/jabber.ru-mitm/">publik</a>, dass der größte russische Jabber-Server (jabber.ru) das Ziel eines <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Machine-in-the-Middle-Angriffs</a> (MITM) war. Hierbei wurde der Datenverkehr von den Servern umgeleitet, was den Angreifenden ermöglichte, gültige TLS-Zertifikate auszustellen und dadurch die Inhalte des Jabber-Servers zu erfassen. Besonders heikel ist die Tatsache, dass die Server in Deutschland gehostet werden. Dies gab uns den Anstoß, eine neue Sicherheitsmaßnahme einzuführen, die solche Angriffe auf Dienste und Websites von systemli.org erheblich erschwert.</p>
+<p><a href="/2024/01/11/neue-sicherheitsma%C3%9Fnahme-gegen-mitm-angriffe-eingef%C3%BChrt/">Weiterlesen</a></p>
+</div>
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">30/04 2023</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2023/04/30/ist-die-linux-festplattenshyverschl%C3%BCsselung-geknackt/" class="text-black">Ist die Linux-Festplatten­verschlüsselung geknackt?</a></h2></div>
+<div class="block"></div>
+<div class="flex flex-col col-span-1 py-4 px-4 leading-5">Der Anarchist Ivan, der seit einiger Zeit in Frankreich in Untersuchungshaft sitzt, berichtete in einem Brief, dass die französische Polizei sich Zugriff auf die Inhalte seines Laptops verschaffen konnte.<p><a href="/2023/04/30/ist-die-linux-festplattenshyverschl%C3%BCsselung-geknackt/">Weiterlesen</a></p>
+</div>
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">06/02 2023</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2023/02/06/abschaltung-von-jabber.systemli.org-am-31.08.2023/" class="text-black">Abschaltung von jabber.systemli.org am 31.08.2023</a></h2></div>
+<div class="block"></div>
+<div class="flex flex-col col-span-1 py-4 px-4 leading-5">Jabber/XMPP war lange Zeit für viele eine wichtige Plattform für verschlüsselte Kommunikation ohne Überwachung. Heutzutage fällt es in vielen Hinsichten weit hinter anderen verschlüsselten Messengern zurück und selbstverständliche Funktionen wie verschlüsselte Gruppenchats oder standardmäßige Verschlüsselung sind von vielen Client-Apps nur teilweise oder unhandlich implementiert.<p><a href="/2023/02/06/abschaltung-von-jabber.systemli.org-am-31.08.2023/">Weiterlesen</a></p>
+</div>
+<a class="col-span-2 button-link" href="https://www.systemli.org/posts">zeige alles</a>
+</div>
+<div class="col-span-7 h-95 flex flex-col justify-between md:my-4 md:py-0 md:border-l text-xxs">
+<div class="mx-auto md:px-4">
+<img data-src="/sticker/connecting-activists.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/digital-allies-for-analog-resistance.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/digitale-selbstverteidigung.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/eure-sicherheit-liegt-uns-am-herzen.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/hack-the-patriarchy.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/rough-consensus-and-running-code.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/solidarity-through-grassroot-technologies.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/vernetzt-aber-sicher.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/we-support-your-local-https-antifa.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/werkzeuge-f%c3%bcr-alltag-und-revolution.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+<img data-src="/sticker/your-friendly-tech-collective.png" class="sticker hidden lg:mt-0 mb-4 shadow-m max-w-full w-96 lg:shadow-none">
+</div>
+<div class="grid md:hidden grid-cols-post-list col-span-12 p-4 mb-4 bg-white shadow-m text-s">
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">11/01 2024</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2024/01/11/neue-sicherheitsma%C3%9Fnahme-gegen-mitm-angriffe-eingef%C3%BChrt/" class="text-black">Neue Sicherheitsmaßnahme gegen MITM-Angriffe eingeführt</a></h2></div>
+<div class="hidden"></div>
+<div class="flex flex-col col-span-2 py-4 leading-5">
+<p>Im November 2023 wurde <a href="https://notes.valdikss.org.ru/jabber.ru-mitm/">publik</a>, dass der größte russische Jabber-Server (jabber.ru) das Ziel eines <a href="https://en.wikipedia.org/wiki/Man-in-the-middle_attack">Machine-in-the-Middle-Angriffs</a> (MITM) war. Hierbei wurde der Datenverkehr von den Servern umgeleitet, was den Angreifenden ermöglichte, gültige TLS-Zertifikate auszustellen und dadurch die Inhalte des Jabber-Servers zu erfassen. Besonders heikel ist die Tatsache, dass die Server in Deutschland gehostet werden. Dies gab uns den Anstoß, eine neue Sicherheitsmaßnahme einzuführen, die solche Angriffe auf Dienste und Websites von systemli.org erheblich erschwert.</p>
+<p><a href="/2024/01/11/neue-sicherheitsma%C3%9Fnahme-gegen-mitm-angriffe-eingef%C3%BChrt/">Weiterlesen</a></p>
+</div>
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">30/04 2023</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2023/04/30/ist-die-linux-festplattenshyverschl%C3%BCsselung-geknackt/" class="text-black">Ist die Linux-Festplatten­verschlüsselung geknackt?</a></h2></div>
+<div class="hidden"></div>
+<div class="flex flex-col col-span-2 py-4 leading-5">Der Anarchist Ivan, der seit einiger Zeit in Frankreich in Untersuchungshaft sitzt, berichtete in einem Brief, dass die französische Polizei sich Zugriff auf die Inhalte seines Laptops verschaffen konnte.<p><a href="/2023/04/30/ist-die-linux-festplattenshyverschl%C3%BCsselung-geknackt/">Weiterlesen</a></p>
+</div>
+<div class="flex items-center py-2 border-b border-r text-ml md:text-l leading-6">06/02 2023</div>
+<div class="flex items-center pl-4 border-b leading-6"><h2><a href="/2023/02/06/abschaltung-von-jabber.systemli.org-am-31.08.2023/" class="text-black">Abschaltung von jabber.systemli.org am 31.08.2023</a></h2></div>
+<div class="hidden"></div>
+<div class="flex flex-col col-span-2 py-4 leading-5">Jabber/XMPP war lange Zeit für viele eine wichtige Plattform für verschlüsselte Kommunikation ohne Überwachung. Heutzutage fällt es in vielen Hinsichten weit hinter anderen verschlüsselten Messengern zurück und selbstverständliche Funktionen wie verschlüsselte Gruppenchats oder standardmäßige Verschlüsselung sind von vielen Client-Apps nur teilweise oder unhandlich implementiert.<p><a href="/2023/02/06/abschaltung-von-jabber.systemli.org-am-31.08.2023/">Weiterlesen</a></p>
+</div>
+<a class="col-span-2 button-link" href="https://www.systemli.org/posts">zeige alles</a>
+</div>
+<div class="block lg:max-h-600 lg:overflow-scroll p-4 md:py-0 bg-white shadow-m md:shadow-none">
+<script type="module" src="./assets/ticker-widget/ticker-widget.esm.js"></script><ticker-timeline domain="updates.systemli.org" limit="10" header="Latest Updates"></ticker-timeline>
+</div>
+</div>
+</div>
+<div class="flex flex-col justify-between w-11/12 mx-auto lg:w-full col-span-24 lg:col-span-5">
+<div class="my-4 lg:my-0">
+<a href="/service/cloud" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/cloud.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">cloud</span>
+</span></a><a href="/service/mail" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/mail.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">e-mail</span>
+</span></a><a href="/service/etherpad" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/etherpad.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">etherpad</span>
+</span></a><a href="/service/meet" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/meet.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">meet</span>
+</span></a><a href="/service/matrix" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/matrix.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">matrix</span>
+</span></a><a href="/service/paste" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/paste.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">paste</span>
+</span></a><a href="/service/schleuder" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/schleuder.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">schleuder</span>
+</span></a><a href="/service/ticker" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/ticker.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">ticker</span>
+</span></a><a href="/service/hosting" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/hosting.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">hosting</span>
+</span></a><a href="/service/" class="service-bar-link"><img class="pr-6 lg:pr-2 w-14 lg:w-10" src="/service-icons/antifa.svg" alt="Icon">
+<span class="service-title-container"><span class="service-title">alle dienste</span></span></a>
+</div>
+<div class="hidden lg:block">
+<div class="hidden flex-col" id="cloud">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Synchronisiere Dateien, Kontakte, Kalender und mehr</div>
+</div>
+<div class="hidden flex-col" id="e-mail">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Postfächer ohne Werbung oder Analyse der Nachrichten</div>
+</div>
+<div class="hidden flex-col" id="etherpad">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Online-Editor zum gemeinsamen Verfassen von Dokumenten</div>
+</div>
+<div class="hidden flex-col" id="meet">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Telefon- und Videokonferenz für kleine Gruppen</div>
+</div>
+<div class="hidden flex-col" id="matrix">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Ende-zu-Ende-verschlüsselter Messenger</div>
+</div>
+<div class="hidden flex-col" id="paste">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Veröffentliche (verschlüsselt) Texte und gib ihnen ein Verfallsdatum</div>
+</div>
+<div class="hidden flex-col" id="schleuder">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Verschlüsselte Mailinglisten für sichere Gruppenkommunikation</div>
+</div>
+<div class="hidden flex-col" id="ticker">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Veröffentliche Kurznachrichten bei Demonstrationen oder Events</div>
+</div>
+<div class="hidden flex-col" id="hosting">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Wikis, Blogs und individuelle Website-Lösungen</div>
+</div>
+<div class="hidden flex-col" id="alle dienste">
+<img src="/service-icons/info.svg" alt="info-logo" class="self-end py-2 ml-4 w-8"><div class="py-2 ml-4 border-t">Unsere Dienste im Überblick</div>
+</div>
+</div>
+<a class="lg:hidden flex justify-center" href="https://www.systemli.org/"><img class="w-64 m-6" src="/systemli_logo.svg" alt="logo"></a>
+</div>
+</div></main><footer class="page-width lg:page-width-lg"><p class="border-t lg:border-0 my-4 lg:p-2 text-xxs text-center">systemli.org steht unter der Lizenz <a href="https://creativecommons.org/licenses/by-sa/3.0/deed.de" target="_blank" rel="license">Creative Commons Namensnennung - Weitergabe unter gleichen
+Bedingungen 3.0 Unported</a>.</p></footer><script src="https://analytics.systemli.org/matomo.js" async defer></script><script src="/js/matomo.min.75c7762762a456e853426a5fa3f261204a44ac903bfa6b084ff05fa93383d5a2.js" defer integrity="sha256-dcd2J2KkVuhTQmpfo/JhIEpErJA7+msIT/BfqTOD1aI="></script><noscript><p><img src="https://analytics.systemli.org/matomo.php?idsite=2&amp;rec=1" style="border:0" alt></p></noscript>
+</body>
+</html>
+

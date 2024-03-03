@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Directory Parser</title>
+    <style>
+        body {
+            background-color: #F4F4F4;
+            color: #040D12;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            color: #183D3D;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #183D3D;
+        }
+
+        input[type="text"] {
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"] {
+            background-color: #5C8374;
+            color: #FFFFFF;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        h2 {
+            color: #183D3D;
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+
+        a {
+            color: #93B1A6;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+            color: #FFFFFF;
+        }
+
+        p {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Directory Parser</h1>
+    <form action="/parse_directory" method="post">
+        <label for="onion_url">Enter Onion URL:</label>
+        <input type="text" id="onion_url" name="onion_url">
+        <input type="submit" value="Parse Directory">
+    </form>
+    {% if directory_urls %}
+        <h2>Directory URLs:</h2>
+        <ul>
+            {% for url in directory_urls %}
+                <li><a href="{{ url }}">{{ url }}</a></li>
+            {% endfor %}
+        </ul>
+    {% endif %}
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+</body>
+</html>
+

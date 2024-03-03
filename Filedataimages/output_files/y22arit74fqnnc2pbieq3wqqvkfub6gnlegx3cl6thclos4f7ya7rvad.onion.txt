@@ -1,0 +1,241 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+<title>Dark Mixer anonymous bitcoin mixer</title>
+<style type="text/css">
+body {
+background:#191919;
+color:#91F1FF;
+margin:0;
+padding:0
+}
+
+body,.buttn,.txt,textarea,#menu a {
+font:13px Verdana,Tahoma,sans-serif
+}
+
+div {
+position:relative
+}
+
+:focus {
+outline:none
+}
+
+::-moz-focus-inner,img {
+border:0
+}
+
+#header {
+margin-bottom:20px
+}
+
+#header,#footer {
+-moz-box-shadow:0 7px 9px rgba(0,0,0,0.333);
+-webkit-box-shadow:0 7px 9px rgba(0,0,0,0.333);
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAA8CAMAAAAT6xnzAAAALHRFWHRDcmVhdGlvbiBUaW1lAHNyaSAyMyBzaWogMjAxMyAxNzo1NjozNyArMDEwMFdJ7RQAAAAHdElNRQfdAR8MAA0gxU7xAAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAAJxQTFRFAAAABQUFCgoKDw8PFRUVGhoaHx8fJSUlKioqKysrLCwsLS0tLi4uLy8vMDAwMTExMjIyMzMzNDQ0NTU1NjY2Nzc3ODg4OTk5Ojo6Ozs7PDw8PT09Pj4+Pz8/QEBAQUFBQkJCQ0NDRERERUVFRkZGR0dHSEhISUlJSkpKS0tLTExMTU1NTk5OT09PUFBQUVFRUlJSU1NTVFRUVVVV1NxstgAAAIlJREFUeNqdy1cCwQAUAMEliE70TvRe7383Z9g3/8NPI1C+Gh+Nt8ZL46nx0LhrkXLTuGpcNM4aJ42jFikHjb3GTmOrkWtstEhZa6w0lhoLjbnGTIuUqcZEY6wx0hhqDLRI6Wv0NDKNrkZHo61FSkujqdHQqGvUNKpapKQaFY2yRkkj0ShqFDS8P5RyMI6s/0BTAAAAAElFTkSuQmCC);
+border-style:solid;
+border-width:0 5px;
+box-shadow:0 7px 9px rgba(0,0,0,0.333);
+height:60px;
+margin-left:-30px;
+width:872px
+}
+
+#logo {
+height:41px;
+left:300px;
+top:10px;
+width:226px
+}
+
+#main {
+-moz-box-shadow:0 -10px 9px rgba(0,0,0,0.5);
+-webkit-box-shadow:0 -10px 9px rgba(0,0,0,0.5);
+background:#232323;
+box-shadow:0 -10px 9px rgba(0,0,0,0.5);
+margin:0 auto 30px;
+padding:0 20px;
+width:822px
+}
+
+#menu {
+padding-bottom:27px
+}
+
+#menu a,.buttn {
+background:#E62A00;
+border:0;
+color:#FFF;
+cursor:pointer;
+font-weight:700
+}
+
+#menu a {
+float:left;
+margin-right:4px;
+padding:6px 8px
+}
+
+#menu a:focus {
+padding:6px 7px 6px 9px
+}
+
+.buttn {
+height:28px
+}
+
+#menu a,.buttn,.txt,textarea {
+-moz-box-shadow:0 2px 3px rgba(0,0,0,0.333);
+-webkit-box-shadow:0 2px 3px rgba(0,0,0,0.333);
+box-shadow:0 2px 3px rgba(0,0,0,0.333)
+}
+
+.txt {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAcCAMAAAAURxzFAAAALHRFWHRDcmVhdGlvbiBUaW1lAHV0byAyMiBzaWogMjAxMyAxMjoyNDoxOSArMDEwMM2m43AAAAAHdElNRQfdAR8LOBPIGtnsAAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAAFRQTFRFAAAADg4OHBwcKioqKysrLS0tLy8vMTExMzMzNDQ0NjY2ODg4Ojo6PDw8Pj4+Pz8/QUFBQ0NDRUVFR0dHSUlJSkpKTExMTk5OUFBQUlJSVFRUVVVVuoSTlgAAAEpJREFUeNqVwYcBQDAAAMFXoxMk2v57muHv+DRejUfj1rg0skbSODUOjV0jamwaq8aiMWtMGqPGoNFrdBpBo9VoNGqNSqPUKDS8HxW5SdXxM1X+AAAAAElFTkSuQmCC);
+border-width:0 3px;
+height:26px;
+margin:4px 0;
+text-align:center
+}
+
+.txt:hover,textarea:hover,#header:hover,#footer:hover {
+border-color:#808080
+}
+
+.txt:focus,textarea:focus,#header,#footer {
+border-color:#E62A00
+}
+
+.buttn:hover,#menu a:hover {
+background:#808080
+}
+
+.buttn:focus,#menu a:focus {
+background:#595959
+}
+
+.txt,textarea,#header:active,#footer:active {
+border-color:#595959;
+border-style:solid;
+color:#FFF
+}
+
+textarea {
+background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAACcCAMAAAAK9wgdAAAALHRFWHRDcmVhdGlvbiBUaW1lAHNyaSAyMyBzaWogMjAxMyAwMDowNDo0OSArMDEwMJhtBAEAAAAHdElNRQfdAR8LOTKdaPjzAAAACXBIWXMAAAsSAAALEgHS3X78AAAABGdBTUEAALGPC/xhBQAAAMZQTFRFAAAAAQEBAwMDBQUFBwcHCQkJCwsLDQ0NDw8PERERExMTFRUVFxcXGBgYGhoaHBwcHh4eICAgIiIiJCQkJiYmKCgoKioqKysrLCwsLS0tLi4uLy8vMDAwMTExMjIyMzMzNDQ0NTU1NjY2Nzc3ODg4OTk5Ojo6Ozs7PDw8PT09Pj4+Pz8/QEBAQUFBQkJCQ0NDRERERUVFRkZGR0dHSEhISUlJSkpKS0tLTExMTU1NTk5OT09PUFBQUVFRUlJSU1NTVFRUVVVVZ7bQJwAAAN9JREFUeNrNy9k6ggEARdFjSIaohEgUFTJVqJQh3v+lPMN2sb9/3a/8YvlH+cGkssKk8o1J5QuTyicmlQ9MKktMKgtMKu+YVOaYVGaYVKaYVN4wqbxiUnnBpDLBpDLGiltGmFSeMak8YVJ5xKTygEnlHpPKEJPKHSaVW0wqN5hUBphU+phUephUrjGpXGFS6WLFLR1MKpeYVC4wqbQxqZxjUmlhUjnDpHKKSaWJSeUEK245xnKEpYHlEEsdSw1LFcsBln0sFSx7WHax7GDZxlLGsoWlhGUTywaWdSxrWLg/YRiWESlSzsgAAAAASUVORK5CYII=);
+border-width:0 4px;
+overflow:auto;
+padding:6px
+}
+
+input.checkb {
+margin-top:15px
+}
+
+a:link {
+color:#E62A00;
+font-size:16px;
+text-decoration:none
+}
+
+a:hover,a:focus {
+color:#808080
+}
+
+h3 {
+color:#19D5FF;
+font:28px Courier,monospace;
+line-height:10px
+}
+
+h3,.buttn,#menu a,#footertext {
+text-shadow:0 1px 1px rgba(0,0,0,0.666)
+}
+
+hr {
+border:1px solid #595959
+}
+
+.table1 td,.table1 th {
+padding:5px 7px;
+text-align:left
+}
+
+.table1 th {
+font-family:Constantia,Georgia,serif
+}
+
+.table1 td {
+background:#111;
+color:#FFF;
+font-size:12px
+}
+
+.floatimg {
+margin:0 19px 19px 0
+}
+
+#checkout {
+font-size:25px
+}
+
+#warning {
+color:#E62A00;
+font-weight:700
+}
+
+#footertext {
+color:#808080;
+font-size:11px;
+left:329px;
+text-align:center;
+top:18px;
+width:212px
+}
+</style>
+</head>
+<body>
+<div id="main">
+<div id="header">
+<div id="logo">
+<a href="index.php"><img src="logo.png" alt="Logo"></a>
+</div>
+</div>
+<div id="menu">
+<a href="index.php" title="Home">Home</a>
+<a href="login.php" title="Login">Login</a>
+<a href="register.php" title="Register">Register</a>
+</div>
+
+
+<br><h1>How to get perfectly anonymous bitcoins in 3 easy steps:</h1>
+<h2>Step 1:</h2>
+Sign up at Dark Mixer and send bitcoins from your old wallet to your new Dark Mixer wallet.<br>
+<br>
+<h2>Step 2:</h2>
+Wait a random amount of time, ideally a few days.
+<br>
+<h2>Step 3:</h2>
+Withdraw your bitcoins as you need them to make payments.<br>
+If you send $300 worth of bitcoins to the Dark Mixer, and withdraw in smaller parts of for example $50, $100, $80, then there will be no possibility at all to even guess which transaction is yours, and which belongs to another user.
+<br>
+<br><br>
+<h1>Why most other mixers are NOT safe at all:</h1>
+1. If they are on the clearweb, then they will be seized sooner or later, like for example bestmixer.
+Even if they do not keep logs, law enforcement can monitor the server since it is no problem to find and seize clearweb servers.<br><br>
+2. Most mixers do not use a wallet, you send X bitcoins to them, and they send X bitcoins minus fee back. This is super easy to deanonymize for blockchain analytics companies!<br><br>
+Conclusion: Only use dark web wallets like Dark Mixer as a mixer to keep your bitcoins anonymous.<br><br>
+<h1>There are currently no fees except the bitcoin network fees for using the mixer.</h1>
+We are earning BTC from other sites and are cleaning our coins on this mixer, so we do not need a fee to run this service.<br>
+This might change in the future and we might charge a small fee, but we will give notice in advance.<br>
+No reason to pay a high fee to mixers which do not even work. Stay safe.<br><br>
+
+<br><br>
+<br><div id="footer">
+<div id="footertext">Dark Mixer</div>
+</div>
+</div>
+</body>
+</html>
+

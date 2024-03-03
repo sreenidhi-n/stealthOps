@@ -1,0 +1,281 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link rel="icon" type="image/icon" href="favicon.ico">	
+<link rel="shortcut icon" type="image/icon" href="favicon.ico">
+<title>Dark Mining - Bitcoin mining with real profits</title>
+<style type="text/css">
+body {
+background:#53390f;
+color:#000;
+margin:0;
+padding:0
+}
+
+body,.buttn,.txt,textarea,#menu a {
+font:13px Verdana,Tahoma,serif
+}
+
+div {
+position:relative
+}
+
+:focus {
+outline:none
+}
+
+::-moz-focus-inner,img {
+border:0
+}
+
+#menu {
+height:60px;
+margin-bottom:21px;
+width:515px
+}
+
+#menu a,.buttn {
+background:#4C3220;
+border:2px outset #4C3220;
+color:#FFF;
+cursor:pointer;
+font-weight:700
+}
+
+#menu a:hover,#menu a:focus,.buttn:hover,.buttn:focus {
+color:#D5C2A4
+}
+
+#menu a {
+float:left;
+margin-right:4px;
+padding:5px 8px
+}
+
+#menu a:focus {
+padding:5px 7px 5px 9px
+}
+
+#menu a,.buttn,.txt,textarea,.table1 td,.table1 th,.floatimg {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px
+}
+
+#logo {
+height:60px;
+left:50%;
+margin-left:93px;
+position:absolute;
+width:332px
+}
+
+#main {
+-moz-border-radius:15px;
+-moz-box-shadow:10px 10px 15px rgba(0,0,0,0.2);
+-webkit-border-radius:15px;
+-webkit-box-shadow:10px 10px 15px rgba(0,0,0,0.2);
+background:#D5C2A4;
+border:3px outset #D5C2A4;
+border-radius:15px;
+box-shadow:10px 10px 15px rgba(0,0,0,0.2);
+margin:20px auto 30px;
+padding:20px 20px 0;
+width:850px
+}
+
+.buttn {
+height:30px
+}
+
+.buttn,#menu a,.txt,textarea,.table1 th,.floatimg {
+-moz-box-shadow:2px 2px 2px rgba(0,0,0,0.25);
+-webkit-box-shadow:2px 2px 2px rgba(0,0,0,0.25);
+box-shadow:2px 2px 2px rgba(0,0,0,0.25)
+}
+
+.txt {
+height:24px;
+margin:4px 0;
+text-align:center
+}
+
+textarea {
+overflow:auto;
+padding:8px
+}
+
+.txt,textarea {
+background:#737939;
+border:2px outset #737939;
+color:#FFF
+}
+
+.txt:focus,textarea:focus {
+background:#796039;
+border-color:#796039
+}
+
+input.checkb {
+margin-top:15px
+}
+
+a:link {
+font-size:16px;
+text-decoration:none
+}
+
+a:link,#warning {
+color:red;
+font-weight:700
+}
+
+a:link,h3 {
+font-family:Constantia,Georgia,serif
+}
+
+a:hover,a:focus {
+color:#737939
+}
+
+#checkout {
+font-size:30px
+}
+
+h3 {
+color:#FFF;
+font-size:28px;
+font-style:italic;
+line-height:9px
+}
+
+h3,#footertext {
+text-shadow:0 1px 1px rgba(0,0,0,0.333)
+}
+
+hr {
+border:1px solid #737939
+}
+
+.table1 td,.table1 th {
+padding:5px 7px;
+text-align:left
+}
+
+.table1 th,.floatimg {
+border:2px outset #D5C2A4;
+color:#4C3220
+}
+
+.table1 td {
+background:#E5DAC8
+}
+
+.floatimg {
+margin:0 19px 19px 0
+}
+
+#footer {
+height:60px;
+width:870px
+}
+
+#footertext {
+font-size:11px;
+left:318px;
+text-align:center;
+top:29px;
+width:212px
+}
+</style>
+</head>
+<body>
+
+<div id="main">
+<div id="logo">
+<a href="index.php"><img src="logo.png" width="332" height="60" alt="logo"></a>
+</div>
+
+<div id="menu">
+<br>
+<a href="index.php" title="Products">Products</a>
+<a href="login.php" title="Login">Login</a>
+<a href="register.php" title="Register">Register</a>
+
+
+</div>
+
+<h3>Earn up to 50% per month with bitcoin mining</h3>
+<img src="products/cat/100/image.jpg" class="floatimg" style="float:left" alt="">We run bitcoin miners since many years.<br>
+Recently we found a way to receive stolen electricity for our new datacenter we are building in a small country we can not name. Everyone is corrupt here, which made it easy for us.<br>
+This gives us a huge advantage to other bitcoin miners, and basically free profits.<br>
+The only problem is that we don't have enough money to order as many mining hardware as we could run.<br>
+This is your chance to profit too.<br>
+Just invest in a Dark Mining miner and get monthly payouts.<br>
+That way we can all earn together.<br>
+With our stolen electricity, there is 0 risk of not making a profit.<br>
+<br>
+Just try it for yourself, buy one of our plans and every month your profit will be in your Dark Mining bitcoin wallet.<br>
+You can re-invest the profits if you want and compound to multiply your initial investment in just a few month.<br>
+This offer will only last until our datacenter is full!<br>
+Then the site will go private, with only access for existing customers!<br>
+<br>
+You might ask, why would we not just run away with the money?<br>
+It is easy to answer, we can receive a lot more stolen electricity, and only together we can expand as fast as possible.<br>
+We got no problem stealing electricity from our government, but we would never cheat on a regular person.<br>
+Just try it with our cheapest plan and see for yourself.<br>
+
+<br><br><br><table class="table1">
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Basic Plan 30% per month for 12 months</td>
+<td>750 USD = 0.01205 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="100" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>Advanced Plan 40% per month for 15 months</td>
+<td>1500 USD = 0.02411 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="101" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>Professional Plan 50% per month for 18 months</td>
+<td>3000 USD = 0.04821 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="110" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+
+
+<div id="footer">
+</div>
+</div>
+</body>
+</html>
+

@@ -1,0 +1,214 @@
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="category" content="religion,books,philosophy">
+        <meta name="keywords" content="Bible,Truth,Freedom,Anonymity,Tor,Jesus,God,Darknet,Darkweb,Deepweb,Freenet,ZeroNet,I2P,free,download,XML,PDF,IPFS,Yggdrasil,Lokinet">
+
+        
+            
+    <meta name="description" content="Uncensored Bible with a several translations available to read and free download. This Bible project is also available within various darknet networks.">
+    <meta property="og:description" content="Uncensored Bible with a several translations available to read and free download. This Bible project is also available within various darknet networks.">
+    <meta name="twitter:description" content="Uncensored Bible with a several translations available to read and free download. This Bible project is also available within various darknet networks.">
+
+
+            <meta property="og:image" content="https://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion/static/images/bible-share-img.jpg">
+            <meta property="og:image:type" content="image/jpg">
+            <meta property="og:image:width" content="1200">
+            <meta property="og:image:height" content="630">
+            <meta property="og:image:alt" content="Bible">
+
+            <meta property="og:title" content="Bible4u - uncensored Bible for Darknet">
+            <meta property="og:type" content="website">
+            <meta property="og:url" content="https://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion/en">
+
+            <meta name="twitter:card" content="summary">
+            <meta name="twitter:title" content="Bible4u - uncensored Bible for Darknet">
+            <meta name="twitter:image" content="https://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion/static/images/bible-share-img-twitter.jpg">
+
+            
+                <link rel="canonical" href="http://bible4u2...ad.onion/">
+                <link rel="alternate" hreflang="en" href="http://bible4u2...ad.onion/en">
+                <link rel="alternate" hreflang="sk" href="http://bible4u2...ad.onion/sk">
+                <link rel="alternate" hreflang="x-default" href="http://bible4u2...ad.onion/en">
+
+                <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+                <link rel="stylesheet" type="text/css" href="/static/css/main.css">
+                <link rel="shortcut icon" href="/static/favicon.png" type="image/x-icon">
+
+                <link rel="manifest" href="/manifest.json">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="#f8f9fa">
+<meta name="apple-mobile-web-app-title" content="Bible4u">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-57x57.png" sizes="57x57">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-60x60.png" sizes="60x60">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-72x72.png" sizes="72x72">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-76x76.png" sizes="76x76">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-114x114.png" sizes="114x114">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-120x120.png" sizes="120x120">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-144x144.png" sizes="144x144">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-152x152.png" sizes="152x152">
+<link rel="apple-touch-icon" href="/static/images/icons/apple-icon-180x180.png" sizes="180x180">
+<meta name="msapplication-TileImage" content="/static/images/icons/app-icon-144x144.png">
+<meta name="msapplication-TileColor" content="#fff">
+<meta name="theme-color" content="#f8f9fa">
+            
+        
+
+        <title>Bible4u - uncensored Bible for Darknet</title>
+
+        
+        
+    </head>
+    <body>
+        <header>
+        
+            
+                <a href="/int/old-admin" title=" "></a>
+            
+            <nav class="main-header">
+                <div class="container">
+                  <input type="checkbox" id="navbar-toggle-cbox">
+                  <label class="navbar-toggle-button" for="navbar-toggle-cbox" data-toggle="collapse" data-target="#navbar-header">
+                  ☰
+                  </label>
+
+                  <div class="main-nav collapse" id="navbarSupportedContent">
+                      <a id="navbarBrand" class="main-nav__brand" href="/en">bible4u2...ad.onion</a>
+                      <ul class="main-nav__items">
+                          
+                          <li>
+                            <a class="main-nav__item main-nav__item-active" href="/en">Home
+                                <span class="sr-only">(current)</span>
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/bible">Bible
+                                
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/guide">Guide
+                                
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/download">Download
+                                
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/api">Api
+                                
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/links">Links
+                                
+                            </a>
+                          </li>
+                          
+                          <li>
+                            <a class="main-nav__item " href="/en/about">About
+                                
+                            </a>
+                          </li>
+                          
+                    </ul>
+
+                    
+                    <div class="main-nav__languages">
+                        
+                            <a class="lang-link" href="/en" title="English"><span class="flag-icon flag-icon-gb "></span></a>
+                        
+                            <a class="lang-link" href="/sk" title="Slovenčina"><span class="flag-icon flag-icon-sk "></span></a>
+                        
+                        <a href="/en?dark=1" title="Night mode"><img class="lang-link dark-mode-icon " src="/static/images/light_mode.png" alt="Night mode"></a>
+                    </div>
+                    
+                  </div>
+                </div>
+            </nav>
+        
+        </header>
+        <main>
+            <div class="container main" id="contentStart">
+                
+
+                <br>
+
+                
+
+                
+
+    
+
+    <div class="main-row__item main-heading__section">
+        <h1 class="main-heading__title">Bible4u</h1>
+        <h2 class="main-heading__subtitle">uncensored Bible for Darknet</h2>
+        <h3 class="main-heading__quote">„Jesus answered: I am the way and the truth and the life. No one comes to the Father except through me.”<br>- John 14:6 (NIV)</h3>
+    </div>
+
+    <div class="main-row__item">
+        <div>
+            <p>
+                Hello visitor. There may be several reasons why you are here - maybe you are not familiar with the Bible and you
+were just browsing through the internet and just accidentally bumped into this page, or maybe you opened
+this page searching for truth. Maybe you are already familiar with the Bible and it is illegal in your country
+to read or own a Bible and for that reason, this project is also available in various networks, like
+<a href="http://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion" rel="nofollow">Tor</a>, <a href="http://bible4u.i2p" rel="nofollow">I2P</a>, <a href="http://127.0.0.1:8888/freenet:USK@iQVx3wWN1wYC8ZQDoT5iKd~n1irZ4JgEK2wAGL9bUE8,Y8PpufzBB7KM-KjUeggSNRJ0PzsEjUQHCdGrjNUDvNs,AQACAAE/bible4u/31/" rel="nofollow">Freenet</a>, <a href="http://127.0.0.1:43110/1BiBLE4U2fLzhr5i2nt1Uxz57CzWktdTSv/" rel="nofollow">Zeronet</a>, <a href="https://gateway.ipfs.io/ipns/bible4u.app/" rel="nofollow">IPFS</a>, <a href="http://bible4u.loki" rel="nofollow">Lokinet</a> or <a href="http://%5B220:da17:52a1:76f3:fb99:f612:3f50:c9b%5D" rel="nofollow">Yggdrasil</a> to provide uncensored access.
+For whatever reason you opened this page, you are welcome here and I invite you to
+feel free to start reading.
+
+
+            </p>
+
+            <p>
+                If you are new to the Bible, I encourage you to start with the Gospel of John. It provides basic overview of who Jesus is and about His mission.
+Few other books I recommend to read after the Gospel of John are Romans, Proverbs, Psalms or the book of Genesis.
+Also, if you have any questions about the Bible, about the stuff you read or if you are missing translation in your language,
+feel free to <a href="/en/about#contact">contact us</a>. So, are you ready to begin?
+
+            </p>
+        </div>
+    </div>
+
+    <div class="main-row__item">
+        <div class="main-section__buttons" id="startButtons">
+            <a class="button-primary" href="/en/bible">Start reading</a>
+            <a class="button-primary" href="/en/guide">Guide me</a>
+        </div>
+    </div>
+
+
+            </div>
+
+            <div class="main-footer__padding"></div>
+        </main>
+
+        <footer class="main-footer">
+            <div class="container print-only">
+                <div>Made by Morzeux © 2018-2024</div>
+                <div id="currentPageLocation">
+                    http://bible4u2...ad.onion/
+                </div>
+            </div>
+            <div class="container main-footer__items">
+                <div class="main-footer__item consume-space">
+                    <span>Made by Morzeux © 2018-2024</span> | <a class="main-footer__link" href="/en/about#contact">Contact</a>
+                </div>
+
+                <div class="main-footer__item">
+                    Mirrors:
+                    <a class="main-footer__link" href="https://bible4u2lvhacg4b3to2e2veqpwmrc2c3tjf2wuuqiz332vlwmr4xbad.onion" rel="nofollow">Tor</a>|<a class="main-footer__link" href="http://bible4u.i2p" rel="nofollow">I2P</a>|<a class="main-footer__link" href="http://127.0.0.1:8888/freenet:USK@iQVx3wWN1wYC8ZQDoT5iKd~n1irZ4JgEK2wAGL9bUE8,Y8PpufzBB7KM-KjUeggSNRJ0PzsEjUQHCdGrjNUDvNs,AQACAAE/bible4u/31/" rel="nofollow">Freenet</a>|<a class="main-footer__link" href="http://127.0.0.1:43110/1BiBLE4U2fLzhr5i2nt1Uxz57CzWktdTSv/" rel="nofollow">Zeronet</a>|<a class="main-footer__link" href="https://gateway.ipfs.io/ipns/bible4u.app/" rel="nofollow">IPFS</a>|<a class="main-footer__link" href="http://bible4u.loki" rel="nofollow">Lokinet</a>|<a class="main-footer__link" href="http://%5B220:da17:52a1:76f3:fb99:f612:3f50:c9b%5D" rel="nofollow">Yggdrasil</a>  
+                </div>
+            </div>
+        </footer>
+    </body>
+</html>
+

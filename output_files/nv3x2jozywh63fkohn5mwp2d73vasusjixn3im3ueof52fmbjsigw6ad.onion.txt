@@ -1,0 +1,56 @@
+<html lang="en">
+	<head>
+		<link rel="stylesheet" type="text/css" href="/main.css">
+		<link rel="stylesheet" type="text/css" href="/mobile.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="author" content="Captain Goat">
+		<link rel="alternate" type="application/rss+xml" href="/latest.rss">
+		<meta name="description" content="A library of downloadable comics.">
+		<title>Comic Book Library</title>
+	</head>
+
+	<body id="index">
+		<div id="blacktop">
+			<ul class="bar" id="navbar">
+				<li class="text" id="homecur">Home</li>
+				<li class="text"><a href="/series/">Titles</a></li>
+				<li class="text"><a href="/publishers/">Publishers</a></li>
+				<li class="text"><a href="/years/">Years</a></li>
+				<li class="text"><a href="/people/">Creators</a></li>
+				<li class="text"><a href="/tags/">Tags</a></li>
+				<li class="text"><a href="/scanners/">Scanners</a></li>
+				<li class="text"><a href="/recent/">Recent</a></li>
+				<li class="text"><a href="/random/">Random</a></li>
+				<li class="text"><a href="/links/">Links</a></li>
+			</ul>
+			
+			<div id="srbox">
+				<form method="POST" action="/results">
+					<input type="text" id="keyword" name="keyword" placeholder="Search">
+				</form>
+			</div>
+		</div>
+
+		<h1>Comic Book Library</h1>
+
+		<img alt="[Stack of comics]" class="stack" src="/stack/m00.png">
+
+		<ul class="bar" id="botbar">
+			<li>Total Comics: <span class="data">3354</span>
+</li>
+			<li id="updated">Library Updated: <span class="data">2024/01/30</span>
+</li>
+			<li id="contactlink">
+				E-mail:
+				<a href="mailto:captaingoat@airmail.cc">captaingoat@airmail.cc</a>
+			</li>
+
+			<li>
+				<a href="/latest.rss" title="RSS feed of latest releases"><img src="/rss.svg" alt=" [RSS feed]" id="rssicon"></a>
+			</li>
+		</ul>
+	</body>
+</html>
+
+captaingoat@airmail.cc
+captaingoat@airmail.cc

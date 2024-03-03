@@ -1,0 +1,2 @@
+from dark_web_scraper import find_images_from_onion_link
+find_images_from_onion_link('http://k6m3fagp4w4wspmdt23fldnwrmknse74gmxosswvaxf3ciasficpenad.onion/')

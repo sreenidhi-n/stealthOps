@@ -1,0 +1,56 @@
+<html lang="en" dir="ltr">
+<head>
+<title>Daniel - Home</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<meta name="author" content="Daniel Winzen">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Personal website of Daniel Winzen, the web developer, sysadmin and privacy enthusiast">
+<link rel="canonical" href="https://danwin1210.de/">
+<link rel="alternate" href="https://danwin1210.de/" hreflang="x-default">
+<link rel="alternate" href="?lang=cs" hreflang="cs">
+<meta property="og:locale:alternate" content="cs_CZ">
+<link rel="alternate" href="?lang=de" hreflang="de">
+<meta property="og:locale:alternate" content="de_DE">
+<link rel="alternate" href="?lang=pt-BR" hreflang="pt-BR">
+<meta property="og:locale:alternate" content="pt_BR">
+<link rel="alternate" href="?lang=ru" hreflang="ru">
+<meta property="og:locale:alternate" content="ru_RU">
+<link rel="alternate" href="?lang=tr" hreflang="tr">
+<meta property="og:locale:alternate" content="tr_TR">
+<link rel="alternate" href="?lang=uk" hreflang="uk">
+<meta property="og:locale:alternate" content="uk_UA">
+<link rel="alternate" href="?lang=zh-Hans" hreflang="zh-Hans">
+<meta property="og:locale:alternate" content="zh_CN">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Daniel - Home">
+<meta property="og:description" content="Personal website of Daniel Winzen, the web developer, sysadmin and privacy enthusiast">
+<meta property="og:image" content="https://danwin1210.de/assets/daniel.jpg">
+<meta property="og:image:type" content="image/jpeg">
+<meta property="og:image:height" content="1000">
+<meta property="og:image:width" content="1000">
+<meta property="og:image:alt" content="An avatar representing Daniel Winzen">
+<meta property="og:url" content="https://danwin1210.de/">
+<meta property="og:locale" content="en_GB">
+<meta property="og:site_name" content="Daniel">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"WebSite","name":"Daniel","alternateName":"DanWin","url":"https://danwin1210.de/", "author":{"@type":"Person", "image": "/assets/daniel.jpg", "name": "Daniel Winzen", "email": "daniel@danwin1210.de", "telephone": "+4917698819809", "url": "https://danwin1210.de"}}</script>
+</head>
+<body>
+<style>body{margin:0;font-size:18px}header{padding:0 50px;background:#00F;min-height:61px;display:flex;align-items:center}header h1{font-size:24px;color:#fff;margin:auto}main{margin-bottom:30px;padding:1em;word-wrap:break-word}nav{padding:0;background-color:#FFF;width:100%;z-index:1;display:block;position:absolute}nav a{display:block;font-weight:bold;margin:10px;margin-bottom:20px}nav a:link{color:#000;background-color:#eee}nav a:visited{color:#666;background-color:#eee}nav a:hover{color:#000;background-color:#fff}nav a:active{color:#fff;background-color:#888}#menu summary{top:11px;left:2px;position:absolute}#menu summary,#language summary{display:block;width:50px;cursor:pointer}#menu summary::-webkit-details-marker,#language summary::-webkit-details-marker{display: none}#language{top:11px;right:0;position:absolute;font-size:2em}#language a{text-decoration:none}abbr:hover{cursor:help}.row{display:flex;flex-wrap:wrap}.cell{border: 1px solid #999999;flex:1;padding:3px 3px}.headerrow{display:flex;font-weight:bold}.col{display:flex;flex:1;padding:3px 3px;flex-direction:column;min-width:5em}.form_limit{max-width:1024px}.red{color:red}.green{color:green}.burger_nav .bar1,.burger_nav .bar2,.burger_nav .bar3{display:block;width:35px;height:5px;background-color:#fff;margin:6px 6px}@media (min-width: 769px){nav{width:auto;border-right:1px solid silver;border-bottom:1px solid silver}}button,input,select,textarea{padding:0.3em;margin:0.3em;font-size:1em}input[type=checkbox],input[type=radio]{width:1.5em;height:1.5em}img{max-width:100%;height:auto}img.float-left{float: left;margin: 0 15px 0 0;}@media (prefers-color-scheme: dark){body,button,input,select,textarea{background-color:#000;color:#fff}a:visited{color:#B33CB4} a:link{color:#00A2D4} a:active{color:#55A2D4}header{background:#008} nav{background-color:#000}nav a:link{color:#fff;background-color:#333}nav a:visited{color:#ccc;background-color:#333}nav a:hover{color:#fff;background-color:#000}nav a:active{color:#fff;background-color:#555}}[dir="rtl"] #menu summary{right:2px;left:unset}[dir="rtl"] #language{left:2px;right:unset}@media (min-width: 769px){[dir="rtl"] nav{border-right:unset;border-left:1px solid silver;}}</style>
+<header><h1>Home</h1></header><details id="menu"><summary class="burger_nav" aria-label="Toggle navigation" tabindex="0"><span class="bar1"></span><span class="bar2"></span><span class="bar3"></span></summary><nav><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/">Home</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/blog/">Blog and news</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/mail/">E-Mail + XMPP</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/tutorials/">Tutorials</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/github-ipv6-proxy.php">GitHub IPv6 proxy</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/faq.php">FAQ</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/about.php">About</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/contact.php">Contact</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/privacy.php">Privacy</a><a href="http://danielas3rtn54uwmofdo3x2bsdifr47huasnmbgqzfrec5ubupvtpid.onion/imprint.php">Imprint</a></nav></details><details id="language"><summary title="English">🇬🇧</summary><div><a href="?lang=cs" title="čeština">🇨🇿</a></div>
+<div><a href="?lang=de" title="Deutsch">🇩🇪</a></div>
+<div><a href="?lang=pt-BR" title="Brazilian Portuguese">🇧🇷</a></div>
+<div><a href="?lang=ru" title="Русский">🇷🇺</a></div>
+<div><a href="?lang=tr" title="Türkçe">🇹🇷</a></div>
+<div><a href="?lang=uk" title="Українська">🇺🇦</a></div>
+<div><a href="?lang=zh-Hans" title="简体中文">🇨🇳</a></div>
+<div><a target="_blank" rel="noopener noreferrer" href="https://github.com/DanWin/main-website/#translation" title="Add translation">+</a></div></details><main><p>Hello! I'm Daniel Winzen, a highly skilled German web developer and system administrator. With a deep passion for programming, server management, and cybersecurity, I offer a wide range of services tailored to your needs. My extensive experience and expertise enable me to adapt quickly to new challenges, ensuring top-notch solutions for every project. I offer a free and anonymous <a href="/mail/">mail service</a>, <a href="/github-ipv6-proxy.php">GitHub IPv6 proxy</a>, and you may also be interested in my <a href="/tutorials/">tutorials</a>. You can find my open-source projects on <a href="https://github.com/DanWin/" target="_blank" rel="noopener noreferrer">GitHub</a>.</p>
+<p>I specialize in developing web applications in PHP, SQL, and JavaScript. Whether you need a WordPress website, a custom PHP application, or any other web project, I have the skills to bring your ideas to life. I excel in WordPress development, including WooCommerce, API connectors and custom plugins, ensuring seamless integration with your other services. Performance optimization is very important to me, and I can help you improve your website's loading speed and performance.</p>
+<p>Managing Linux servers, web hostings, and email services is my forte. I have experience with various hosting providers and am proficient in working with hosting panels like Plesk and WHMCS. I can help you with configuring your business network infrastructure, and ensure optimal performance and security, so you can focus on running your business. That includes setting up firewalls, VPNs, routers, and other security measures to protect your data from unauthorized access.</p>
+<p>I'm <a href="https://www.credly.com/badges/2652f763-ca8c-4e23-b0a9-939a2f27c83c" target="_blank" rel="noopener noreferrer">Certified in Cybersecurity</a> and possess a deep understanding of cybersecurity threats. My continuous learning and passion for cybersecurity have been instrumental in my ability to safeguard online environments effectively. I'm constantly upgrading my skills and knowledge to stay ahead of the latest threats. I offer comprehensive cybersecurity solutions to safeguard your systems and data from potential threats. That includes both physical and digital security measures such as firewalls, anti-virus software, backups, password management, and more. I can also help you with incident response and recovery after a security breach.</p>
+<p>I'd be happy to answer any questions you may have and look forward to working with you. <a href="/contact.php" target="_blank" rel="noopener noreferrer">Get in touch with me</a> to discuss your project and turn your vision to life!</p>
+<p>To learn more about me, check out my <a href="/about.php">About page</a>,</p>
+</main>
+</body>
+</html>
+
+daniel@danwin1210.de

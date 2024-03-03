@@ -1,0 +1,377 @@
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8">
+<link rel="icon" type="image/icon" href="favicon.ico">	
+<link rel="shortcut icon" type="image/icon" href="favicon.ico">
+<title>Cardshop - USA CVV KNOWN BALANCE and Worldwide CC &amp; CVV from UK/US/DE/FR/CA/JP/AU/NL/IT/CH/DK/EU/Asia</title>
+<style type="text/css">
+body {
+background:#C2BDBA;
+color:#000;
+margin:0;
+padding:0
+}
+
+body,.txt,textarea {
+font:13px Verdana,Tahoma,sans-serif
+}
+
+div {
+position:relative
+}
+
+:focus {
+outline:none
+}
+
+::-moz-focus-inner,img {
+border:0
+}
+
+#header {
+-moz-border-radius:0 0 20px 20px;
+-webkit-border-radius:0 0 20px 20px;
+border-color:#B0ABA8;
+border-radius:0 0 20px 20px;
+border-style:solid;
+border-width:0 4px 4px;
+color:#FFF;
+height:78px;
+left:50%;
+margin-left:-469px;
+position:absolute;
+width:930px;
+z-index:4
+}
+
+#header,#main {
+-moz-box-shadow:0 0 35px rgba(0,0,0,0.75);
+-webkit-box-shadow:0 0 35px rgba(0,0,0,0.75);
+background:#C2BDBA;
+box-shadow:0 0 35px rgba(0,0,0,0.75)
+}
+
+#main {
+-moz-border-radius:15px;
+-webkit-border-radius:15px;
+border:3px solid #B0ABA8;
+border-radius:15px;
+margin:0 auto 30px;
+padding:83px 20px 0;
+width:850px;
+z-index:2
+}
+
+#menu {
+height:50px;
+left:50%;
+margin-left:-90px;
+margin-top:-30px;
+position:absolute;
+top:50%;
+width:550px
+}
+
+#menu a:link,#menu a:visited {
+float:right;
+margin-right:4px;
+padding:4px;
+text-align:center
+}
+
+#menu a:hover,#menu a:focus,.buttn:hover,.buttn:focus {
+background-color:#35312D
+}
+
+#menu a:focus {
+padding:4px 3px 4px 5px
+}
+
+#menu a,h3 {
+-moz-border-radius:7px;
+-webkit-border-radius:7px;
+border-radius:7px
+}
+
+#menu a,.buttn {
+background:#2F856C;
+color:#FFF;
+cursor:pointer
+}
+
+#menu a,.buttn,.txt,textarea {
+border:2px solid #2F856C
+}
+
+#menu a:focus,.buttn:focus,.txt:focus,textarea:focus {
+-moz-box-shadow:0 0 6px rgba(0,0,0,0.75);
+-webkit-box-shadow:0 0 6px rgba(0,0,0,0.75);
+box-shadow:0 0 6px rgba(0,0,0,0.75)
+}
+
+.buttn {
+height:26px
+}
+
+.buttn,.txt,.table1 td,.table1 th,.floatimg {
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px
+}
+
+.txt {
+height:20px;
+margin:7px 0;
+text-align:center
+}
+
+textarea {
+-moz-border-radius:10px;
+-webkit-border-radius:10px;
+border-radius:10px;
+overflow:auto;
+padding:8px
+}
+
+input.checkb {
+margin-top:15px
+}
+
+a:link,a:visited {
+font-size:13px;
+text-decoration:none
+}
+
+a:link,a:visited,#warning {
+color:red;
+font-weight:700
+}
+
+a:hover,a:focus,h3 {
+color:#35312D
+}
+
+h3 {
+font-size:22px;
+font-weight:500;
+padding:5px 8px
+}
+
+h3,.table1 td {
+background:#E1E0DF
+}
+
+hr {
+border:1px solid #B0ABA8
+}
+
+.table1 td,.table1 th {
+-moz-box-shadow:0 0 3px rgba(0,0,0,0.75);
+-webkit-box-shadow:0 0 3px rgba(0,0,0,0.75);
+box-shadow:0 0 3px rgba(0,0,0,0.75);
+padding:5px 7px;
+text-align:left
+}
+
+.table1 th {
+background-color:#35312D;
+color:#FFF
+}
+
+.floatimg {
+margin:0 19px 19px 0
+}
+
+#checkout {
+font-size:28px
+}
+
+#footer {
+height:60px;
+width:870px
+}
+
+#footertext {
+font-size:11px;
+left:318px;
+text-align:center;
+top:29px;
+width:212px
+}
+</style>
+</head>
+<body>
+
+<div id="header">
+<a href="index.php">    <img src="logo.png" alt="Cardshop - USA CVV KNOWN BALANCE and Worldwide CC &amp; CVV from UK/US/DE/FR/CA/JP/AU/NL/IT/CH/DK/EU/Asia"></a>
+
+<div id="menu">
+
+<a href="login.php" title="Login">Login</a>
+<a href="register.php" title="Register">Register</a>
+<a href="index.php" title="Products">Products</a>
+</div>
+</div>
+<div id="main">
+
+<h3>USA CVV KNOWN BALANCE</h3>
+<img src="products/cat/100/image.jpg" class="floatimg" style="float:left" alt="">You will get a High Quality known balance cc (100% live not some rubbish cards like my competitor ones) !<br> You will get the current balance (how much is owed to bank by CH ) You will get available credit (so you know exactly how much to charge !<br>  You will also get last statement date /amount and next statement due /amount just so you get your head round it (in case your method takes a while you know exactly how to move around it. <br> 
+
+<br> 
+You will receive the following card format:<br> 
+ CC number | expiry | CVV | first name | last name | address | city | State | zipcode | email | phone number (where available) | current balance | available credit | 
+ <br> 
+ <br> Cards designed for Paypal/stripe/square/venmo no more wasting time and money trying to find a card that works, with me you will hit first time guaranteed! 
+ <br> Always bought cards not knowing how much to charge, and worried about charging too much and killing the card? NOT with my cards, you will know EXACTLY how much is in there so you can charge it without worrying ! 
+ <br> Happy buying ! <br><br><br><table class="table1">
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>10 x cards with credit from 1000 to 5000 USD</td>
+<td>90 USD = 0.00145 ฿</td>
+<td>
+<strong>Sold out</strong>
+</td>
+</tr>
+<tr>
+<td>50 x cards with credit from 1000 to 5000 USD</td>
+<td>350 USD = 0.00562 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="101" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>10 x cards with credit from 5000 to 20000 USD</td>
+<td>120 USD = 0.00193 ฿</td>
+<td>
+<strong>Sold out</strong>
+</td>
+</tr>
+<tr>
+<td>50 x cards with credit from 5000 to 20000 USD</td>
+<td>450 USD = 0.00723 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="104" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>10 x cards with credit from 20000 to 50000 USD</td>
+<td>180 USD = 0.00289 ฿</td>
+<td>
+<strong>Sold out</strong>
+</td>
+</tr>
+<tr>
+<td>50 x cards with credit from 20000 to 50000 USD</td>
+<td>650 USD = 0.01045 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="108" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>10 x non verified by visa cards 5000 - 100000 USD</td>
+<td>250 USD = 0.00402 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="111" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>50 x non verified by visa cards 5000 - 100000 USD</td>
+<td>800 USD = 0.01286 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="112" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+</tbody>
+</table>
+<br><hr>
+<h3>Worldwide CC &amp; CVV from UK/US/DE/FR/CA/JP/AU/NL/IT/CH/DK/EU/Asia</h3>Fresh and High Quality CC &amp; CVV from all countries in the world.<br><br>
+ Data Format: Card Number | Expire Month | Expire Year | CVV | Card Type | Holder Name | Card Level | Country | Email 
+ <br><br>
+ Note: All my cards are coming without address, most of them are non-AVS (Address Verification System), you can use any fake billing address when you make carding. 
+
+
+<br><br><br><table class="table1">
+<thead>
+<tr>
+<th>Product</th>
+<th>Price</th>
+<th>Quantity</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>15 x random card with high balance</td>
+<td>90 USD = 0.00145 ฿</td>
+<td>
+<strong>Sold out</strong>
+</td>
+</tr>
+<tr>
+<td>50 x random card with high balance</td>
+<td>225 USD = 0.00362 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="201" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+<tr>
+<td>15 x card with high balance, you can choose country or bank BIN</td>
+<td>120 USD = 0.00193 ฿</td>
+<td>
+<strong>Sold out</strong>
+</td>
+</tr>
+<tr>
+<td>50 x card with high balance, you can choose country or bank BIN</td>
+<td>295 USD = 0.00474 ฿</td>
+<td>
+<form name="cart" method="post" action="cart.php">
+<input value="206" type="hidden" name="id">
+<input value="add" type="hidden" name="action">
+<input value="1" type="text" class="txt" name="menge" size="2"> X <input type="submit" class="buttn" value="Buy now">
+</form>
+</td>
+</tr>
+</tbody>
+</table>
+<br>
+
+
+
+<div id="footer">
+<div id="footertext">Cardshop</div>
+</div>
+</div>
+</body>
+</html>
+

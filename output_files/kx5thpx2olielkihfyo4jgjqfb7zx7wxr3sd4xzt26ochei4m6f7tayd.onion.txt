@@ -1,0 +1,196 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href="/img/favicon.ico" rel="icon" type="image/x-icon">
+	<link href="/css/bootstrap.min.css" rel="stylesheet">
+	<link href="/css/custom.css" rel="stylesheet">
+	<link href="/css/tokenfield.css" rel="stylesheet">
+	<link rel="alternate" type="application/rss+xml" title="Imperial Library of Trantor" href="/search/?fmt=rss&amp;q=">
+
+	<title>Imperial Library of Trantor</title>
+</head>
+<body>
+
+<header>
+
+<div class="modal fade" id="loginModal" tabindex="-1" aria-labelledby="loginModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+	<div class="modal-content">
+	  <div class="modal-header">
+		<h5 class="modal-title" id="loginModalLabel">Log In</h5>
+		<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+	  </div>
+	  <div class="d-flex justify-content-end">
+	    <small><a href="/login/">Or create an account -&gt;</a></small> 
+	  </div>
+      <form id="login" method="POST" action="/login/" enctype="application/x-www-form-urlencoded">
+	  <div class="modal-body">
+		<div class="input-group mb-3">
+		  <span class="input-group-text" id="user">
+			<svg class="bi" width="1.5em" height="1.5em" fill="currentColor">
+			  <use xlink:href="/img/bootstrap-icons.svg#person-fill"></use>
+			</svg>
+		  </span>
+          <input type="text" class="form-control" placeholder="Username" name="user" autofocus="autofocus" aria-label="Username" aria-describedby="user">
+		</div>
+		<div class="input-group mb-3">
+		  <span class="input-group-text" id="pass">
+			<svg class="bi" width="1.5em" height="1.5em" fill="currentColor">
+			  <use xlink:href="/img/bootstrap-icons.svg#key-fill"></use>
+			</svg>
+		  </span>
+          <input type="password" class="form-control" placeholder="Password" name="pass" aria-label="Password" aria-describedby="pass">
+		</div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        <input class="btn btn-primary" type="submit" name="submit" value="Log In">
+      </div>
+      </form>
+	</div> 
+  </div> 
+</div> 
+
+<nav class="navbar navbar-expand-md navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="/">Imperial Library</a>
+	<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+      	<li class="nav-item"><a class="nav-link active" href="/">Home</a></li>
+      	<li class="nav-item"><a class="nav-link " href="/about/">About</a></li>
+      	<li class="nav-item"><a class="nav-link " href="/news/">News</a></li>
+      	<li class="nav-item"><a class="nav-link " href="/upload/">Upload</a></li>
+      	<li class="nav-item"><a class="nav-link" href="/forum/">Forum</a></li>
+      </ul>
+
+      <ul class="navbar-nav justify-content-end">
+      	<li class="nav-item"><a class="nav-link " href="/help/">Help</a></li>
+      </ul>
+      <form class="d-flex" action="/search/">
+      	<input type="search" class="form-control" name="q" placeholder="Search">
+      </form>
+      	<ul class="navbar-nav">
+      		
+      		<li class="nav-item">
+			  <a class="nav-link" data-toggle="modal" href="/login/#login" data-bs-toggle="modal" data-bs-target="#loginModal">
+				<small>Login/SignUp</small>
+			  </a>
+			</li>
+      		
+      	</ul>
+    </div>
+  </div>
+</nav>
+</header>
+
+<main>
+  <div class="container">
+	<br>
+
+
+
+
+
+<div class="row">
+	<p class="text-center">There are 1590219 books on the library.</p>
+</div>
+<div class="row">
+	<div class="col">
+	  <h4>Last books added:</h4>
+	</div>
+	<div class="col text-end title">
+	  <small>(<a href="/search/?q=">more</a>)</small>
+	  <a href="/search/?fmt=rss&amp;q="><img src="/img/feed.png"></a>
+	</div>
+</div>
+
+<div class="row">
+
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/LGFBbA2LdAVYt0Dk" title="">
+		<div class="down"><img class="rounded" src="/cover/LGFBbA2LdAVYt0Dk/small/Die%20Lauscherin%20im%20Beichtstuhl%20-%20Die%20Lauscherin%20im%20Beichtstuhl.jpg" alt="Die Lauscherin im Beichtstuhl - Die Lauscherin im Beichtstuhl"></div>
+		<p><strong>Die Lauscherin im Beichtstuhl - Die Lauscherin im Beichtstuhl</strong></p>
+		</a>
+		</div>
+	</div>
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/0BZB1hy1K93FxHfw" title="">
+		<div class="down"><img class="rounded" src="/cover/0BZB1hy1K93FxHfw/small/H%27ard%20Starts:%20The%20Early%20Waldrop.jpg" alt="H'ard Starts: The Early Waldrop"></div>
+		<p><strong>H'ard Starts: The Early Waldrop</strong></p>
+		</a>
+		</div>
+	</div>
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/s_uIXQ-X-OKISZRc" title="">
+		
+		<p><strong>Die Märchen aus dem Phantasus</strong></p>
+		</a>
+		</div>
+	</div>
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/2EgERfdfoWX1MKAs" title="">
+		
+		<p><strong>Frooks</strong></p>
+		</a>
+		</div>
+	</div>
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/D_exGU4vAqof-j9S" title="">
+		<div class="down"><img class="rounded" src="/cover/D_exGU4vAqof-j9S/small/Die%20Marie%20vom%20Hafen:%20Ausgew%c3%a4hlte%20Romane%20%28German%20Edition%29.jpg" alt="Die Marie vom Hafen: Ausgewählte Romane (German Edition)"></div>
+		<p><strong>Die Marie vom Hafen: Ausgewählte Romane (German Edition)</strong></p>
+		</a>
+		</div>
+	</div>
+	
+	<div class="col-sm-2">
+		<div class="thumbnail text-center" style="border:none;">
+		<a href="/book/1d1beIl9NX9HeCgH" title="">
+		<div class="down"><img class="rounded" src="/cover/1d1beIl9NX9HeCgH/small/Die%20Fantome%20des%20Hutmachers:%20Ausgew%c3%a4hlte%20Romane%20%28German%20Edition%29.jpg" alt="Die Fantome des Hutmachers: Ausgewählte Romane (German Edition)"></div>
+		<p><strong>Die Fantome des Hutmachers: Ausgewählte Romane (German Edition)</strong></p>
+		</a>
+		</div>
+	</div>
+	
+
+</div>
+
+<div class="row">
+	<p class="text-center"><a class="badge bg-secondary" href="/search/?q=tag:romance">romance</a> <a class="badge bg-secondary" href="/search/?q=tag:fantasy">fantasy</a> <a class="badge bg-secondary" href="/search/?q=tag:mystery">mystery</a> <a class="badge bg-secondary" href="/search/?q=tag:contemporary">contemporary</a> <a class="badge bg-secondary" href="/search/?q=tag:science%20fiction">science fiction</a> <a class="badge bg-secondary" href="/search/?q=tag:young%20adult">young adult</a> <a class="badge bg-secondary" href="/search/?q=tag:thriller">thriller</a> <a class="badge bg-secondary" href="/search/?q=tag:history">history</a> <a class="badge bg-secondary" href="/search/?q=tag:fiction">fiction</a> <a class="badge bg-secondary" href="/search/?q=tag:adult">adult</a> <a class="badge bg-secondary" href="/search/?q=tag:suspense">suspense</a> <a class="badge bg-secondary" href="/search/?q=tag:classics">classics</a> <a class="badge bg-secondary" href="/search/?q=tag:adventure">adventure</a> <a class="badge bg-secondary" href="/search/?q=tag:roman">roman</a> <a class="badge bg-secondary" href="/search/?q=tag:biography">biography</a> <a class="badge bg-secondary" href="/search/?q=tag:horror">horror</a> <a class="badge bg-secondary" href="/search/?q=tag:general">general</a> <a class="badge bg-secondary" href="/search/?q=tag:childrens">childrens</a> <a class="badge bg-secondary" href="/search/?q=tag:novela">novela</a> <a class="badge bg-secondary" href="/search/?q=tag:humour">humour</a> <a class="badge bg-secondary" href="/search/?q=tag:philosophy">philosophy</a> <a class="badge bg-secondary" href="/search/?q=tag:politics">politics</a> <a class="badge bg-secondary" href="/search/?q=tag:science">science</a> <a class="badge bg-secondary" href="/search/?q=tag:vampires">vampires</a> <a class="badge bg-secondary" href="/search/?q=tag:reference">reference</a> <a class="badge bg-secondary" href="/search/?q=tag:religion">religion</a> <a class="badge bg-secondary" href="/search/?q=tag:psychology">psychology</a> <a class="badge bg-secondary" href="/search/?q=tag:war">war</a> <a class="badge bg-secondary" href="/search/?q=tag:self%20help">self help</a> <a class="badge bg-secondary" href="/search/?q=tag:%5bheft%5d">[heft]</a> <a class="badge bg-secondary" href="/search/?q=tag:business">business</a> <a class="badge bg-secondary" href="/search/?q=tag:roman-science%20fiction">roman-science fiction</a> <a class="badge bg-secondary" href="/search/?q=tag:travel">travel</a> <a class="badge bg-secondary" href="/search/?q=tag:poetry">poetry</a> <a class="badge bg-secondary" href="/search/?q=tag:roman-fantasy">roman-fantasy</a> <a class="badge bg-secondary" href="/search/?q=tag:historical">historical</a> <a class="badge bg-secondary" href="/search/?q=tag:anthologies">anthologies</a> <a class="badge bg-secondary" href="/search/?q=tag:roman-krimi">roman-krimi</a> <a class="badge bg-secondary" href="/search/?q=tag:writing">writing</a> <a class="badge bg-secondary" href="/search/?q=tag:%5berotik%5d">[erotik]</a> <a class="badge bg-secondary" href="/search/?q=tag:spirituality">spirituality</a> <a class="badge bg-secondary" href="/search/?q=tag:sachbuch">sachbuch</a> <a class="badge bg-secondary" href="/search/?q=tag:health">health</a> <a class="badge bg-secondary" href="/search/?q=tag:music">music</a> <a class="badge bg-secondary" href="/search/?q=tag:paranormal">paranormal</a> <a class="badge bg-secondary" href="/search/?q=tag:art">art</a> <a class="badge bg-secondary" href="/search/?q=tag:short%20stories">short stories</a> <a class="badge bg-secondary" href="/search/?q=tag:ebook">ebook</a> <a class="badge bg-secondary" href="/search/?q=tag:test">test</a> <a class="badge bg-secondary" href="/search/?q=tag:intriga">intriga</a> </p>
+</div>
+
+  </div> 
+</main>
+<footer>
+  <div class="container">
+	<hr>
+	<div class="row">
+		<div class="col">
+			<p><small>Chief Librarian: Las Zenow &lt;zenow@riseup.net&gt;<br>
+			   Fork the source code from <a href="https://gitlab.com/trantor">gitlab</a></small>.</p>
+		</div>
+	
+	</div>
+  </div> 
+</footer>
+
+    
+	<script src="/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
+
+zenow@riseup.net

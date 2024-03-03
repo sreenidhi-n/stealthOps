@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Upload and View EXIF Data</title>
+    <style>
+        body {
+            background-color: #5C8374;
+            color: #040D12;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #183D3D;
+        }
+
+        form {
+            margin-top: 20px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            color: #183D3D;
+        }
+
+        input[type="file"] {
+            margin-bottom: 10px;
+        }
+
+        button[type="submit"] {
+            background-color: #93B1A6;
+            color: #040D12;
+            padding: 8px 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        hr {
+            margin-top: 20px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Upload Image</h1>
+    {% if error_message %}
+        <p>{{ error_message }}</p>
+    {% endif %}
+    <form action="/process_image" method="post" enctype="multipart/form-data">
+        <label for="image">Upload Image:</label>
+        <input type="file" id="image" name="image">
+        <button type="submit">Upload</button>
+    </form>
+
+    {% if exif_data %}
+        <hr>
+        <h2>EXIF Data</h2>
+        <ul>
+            {% for key, value in exif_data.items() %}
+                <li><strong>{{ key }}:</strong> {{ value }}</li>
+            {% endfor %}
+            {% if exif_data.location %}
+                <li><strong>Location:</strong> {{ exif_data.location }}</li>
+            {% endif %}
+        </ul>
+    {% endif %}
+</body>
+</html>
+

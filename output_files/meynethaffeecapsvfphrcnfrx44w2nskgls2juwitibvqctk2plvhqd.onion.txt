@@ -1,0 +1,86 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<title>MayVaneDay Studios</title>
+		<meta name="author" content="Vane Vander">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link href="./style.css" rel="stylesheet" type="text/css" media="all">
+		<meta name="abuseipdb-verification" content="vbeJNq7o">
+		<meta name="description" content="Vane Vander's personal website">
+	</head>
+	<body class="index">
+		<script src="./checktor.js"></script>
+		<script src="./MirrorKiller.js"></script>
+		<div id="index-header" class="box center">
+			<h2>Welcome to MayVaneDay Studios</h2>
+		</div>
+		<hr>
+		<div class="box center">
+			<p>THE ORACLE SPEAKS:</p>
+			<p>
+				<a href="./poetry/f/firebrand.txt">[FIREBRAND]</a>
+				<a href="./poetry/w/watershed.txt">[WATERSHED]</a>
+				<a href="./poetry/e/earthbound.txt">[EARTHBOUND]</a>
+				<a href="./poetry/a/airborne.txt">[AIRBORNE]</a>
+				<a href="./poetry/z/zircons_beacon.txt">[ZIRCON'S BEACON]</a>
+				<a href="./poetry/a/adamantines_mandate.txt"><b>[ADAMANTINE'S MANDATE]</b></a>
+			</p>
+		</div>
+		<hr>
+		<div class="box">
+			<h3>My books:</h3>
+			<h4>Poetry</h4>
+			<ul>
+				<li><a href="./books/tee.epub">The Eschaton Eminence</a></li>
+				<li><a href="./books/twine.epub">The World Is Not Enough</a></li>
+				<li><a href="./books/tyia.epub">Three Years In Absentia</a></li>
+				<li><a href="./books/mm_tac.epub">Mori's Mirror and The Adoration Corporation</a></li>
+				<li><a href="./books/h.epub">Hydra</a></li>
+				<li><a href="./books/mm_tpf.epub">Mori's Mirror and The Poetry Factory</a></li>
+			</ul>
+			<h4>Fiction</h4>
+			<ul>
+				<li><a href="./books/is.epub">In Separation</a></li>
+				<li><a href="./books/tvsc.epub">The Viridian Shipping Company</a></li>
+				<li><a href="./books/tdom.epub">The Duality Of Mankind</a></li>
+				<li><a href="./books/lw.epub">Living Wasteland</a></li>
+				<li><a href="./books/mby.epub">Me Before You</a></li>
+				<li><a href="./books/twlf.epub">The White Line Fever</a></li>
+				<li><a href="./books/tsf.epub">The Samhain Files</a></li>
+			</ul>
+		</div>
+		<hr>
+		<div class="box">
+			<h3>Announcement Box</h3>
+			<ul>
+				<li>2024-01-23: I am going in for a surgical appointment the last day of this month. There is a nonzero chance I am going to die. We will see what happens either way.</li>
+			</ul>
+		</div>
+		<hr>
+		<div class="box">
+			<p class="center">
+				<a href="./blog/index.html">[Blog]</a>
+				<a href="./poetry/">[Poetry]</a>
+			</p>
+			<p><a href="./women.md">The big list of women who did things</a></p>
+			<p><a href="./2024_books.html">Vane reads one book by women every week of 2024</a></p>
+			<p><a href="./2024_music.html">Vane listens to one music album by women every week of 2024</a></p>
+			<p><a href="./identity/index.html">Identity &amp; Contact</a></p>
+			<p><a href="./public.gpg">My GPG key</a></p>
+			<p><a href="https://letsdecentralize.org">Let's Decentralize</a></p>
+			<p><a href="https://deadendshrine.online">Dead End Shrine Online</a></p>
+		</div>
+		<hr>
+		<div class="box center">
+			<a href="http://127.0.0.1:8082/ipns/mayvaneday.org/">[IPFS]</a>
+			<a href="http://meynethaffeecapsvfphrcnfrx44w2nskgls2juwitibvqctk2plvhqd.onion">[Tor]</a>
+			<a href="http://zli2qsg54w7y42vgw4xxlnj4nktcpg7xp33yjxkp33sjafvznbwa.b32.i2p">[I2P]</a>
+<!--			<a href="http://yggdrasil.mayvaneday.art">[Yggdrasil]</a> -->
+			<a href="http://127.0.0.1:8888/USK@Up0ipQCQjyY2PaGofU-P63kJMb54E0~2xZiUnyxPypM,rGmJhPDVou6DwS6Eh23sZ93hVbDaA6v4D5l3vWsN-oY,AQACAAE/mayvaneday/-1/">[Freenet]</a>
+			<a href="https://codeberg.org/lethe/mayvaneday">[Git]</a>
+			<a href="gemini://meynethaffeecapsvfphrcnfrx44w2nskgls2juwitibvqctk2plvhqd.onion">[Gemini over Tor]</a>
+			<a href="spartan://meynethaffeecapsvfphrcnfrx44w2nskgls2juwitibvqctk2plvhqd.onion">[Spartan over Tor]</a>
+		</div>
+	</body>
+</html>
+

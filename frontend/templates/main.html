@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="{{ url_for('static', filename='css/main.css') }}" rel="stylesheet">
+    <title class="title">Dashboard</title>
+  </head>
+  <body>
+    <h1 class="h1">Dashboard</h1>
+    <p class="para">Welcome!</p>
+    <a href="{{ url_for('parse_directory') }}" class="mini-card">
+      Parse Directory
+    </a>
+
+    <a href="{{ url_for('analyse_transaction') }}" class="mini-card">
+      Cryptocurrency address
+    </a>
+
+    <a href="{{ url_for('keyword') }}" class="mini-card">
+      Keyword Search on Forums
+    </a>
+    
+    <a href="{{ url_for('userinfo') }}" class="mini-card">
+      User Information Leak
+    </a>
+    
+    
+    <a href="{{ url_for('process_image') }}" class="mini-card">
+      EXIF Data
+    </a>
+    
+    <a href="{{ url_for('process_image') }}" class="mini-card">
+      DARKWEB TO CLEARNET MAPPING 
+    </a>
+    
+  </body>
+</html>
